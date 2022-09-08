@@ -557,8 +557,9 @@ a {
 .port_info_text {
     font-size: 14px;
     text-align: justify;
-    padding: 10px;
+ 
 }
+
 
 .port_img_1,
 .port_img_2 {
@@ -588,10 +589,22 @@ a {
     }
     .port_info {
         position: absolute;
-        padding-top: 80px;
+        padding-top: 60px;
         /* border: 2px solid black; */
         width: 50%;
         padding-right: 20px;
+        height: 40%;
+    }
+    .port_title{
+        /* border: #f26440 solid 2px; */
+        line-height: 0;
+    }
+    .port_info_text {
+        font-size: 14px;
+        text-align: justify;
+        /* padding: 10px; */
+        /* border: #f26440 solid 2px; */
+        top:-10px;
     }
 }
 
@@ -613,6 +626,10 @@ a {
     }
     .port_info {
         width: 90%;
+    }
+    .port_title{
+        /* border: #f26440 solid 2px; */
+        line-height: 0;
     }
 
 }
